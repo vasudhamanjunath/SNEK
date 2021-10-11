@@ -17,7 +17,6 @@ def gameloop():
     food_x=round(random.randrange(0,width-cell)/cell)*cell
     food_y=round(random.randrange(0,height-cell)/cell)*cell
     while not end:
-        pygame.display.update()
         for event in pygame.event.get():
             if event.type==pygame.QUIT:
                 end=1
