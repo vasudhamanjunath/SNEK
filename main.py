@@ -29,9 +29,9 @@ def gameloop():
                     x1,y1=cell,0
                 elif event.key==pygame.K_DOWN:
                     x1,y1=0,cell
+        x+=x1;y+=y1
         if x>width or x<0 or y>height or y<0:#screen boundary condition
             break
-        x+=x1;y+=y1
         disp.fill(black)
         pygame.draw.rect(disp,red,[food_x,food_y,cell,cell])
         head=[]
@@ -53,6 +53,7 @@ def gameloop():
             blen+=1#body length increases
             snake_speed+=0.5;
         clk.tick(snake_speed)#fps
+    clk.tick(snake_speed)
     disp.fill(black)
     m=font_style.render("Game Over",True,red)
     disp.blit(m,[(width/2)-40,height/2])
