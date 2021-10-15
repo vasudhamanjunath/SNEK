@@ -51,7 +51,7 @@ def gameloop():
             food_x=round(random.randrange(0,width-cell)/cell)*cell
             food_y=round(random.randrange(0,height-cell)/cell)*cell
             blen+=1#body length increases
-            snake_speed+=0.5;
+            if snake_speed<30: snake_speed+=0.5;
         clk.tick(snake_speed)#fps
     clk.tick(snake_speed)
     disp.fill(black)
