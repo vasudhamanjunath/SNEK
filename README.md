@@ -7,7 +7,9 @@ A very simple version of the classsic snake game. Perfect for people working wit
 Here's How you can get the program running in your machines :  
 Install Pygame using the PIP tool.  
 Command(windows): pip install pygame
-## About the project
+## How to Run
+1. Make sure you have python and pygame installed.
+2. Enter `python main.py` in your command line.
 ### Is this project beginner friendly?
 YES
 ## Maintainer
