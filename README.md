@@ -9,8 +9,9 @@ Install Pygame using the PIP tool.
 Command(windows): pip install pygame
 ## How to Run
 1. Make sure you have python and pygame installed.
-2. Enter `python main.py` in your command line.
+2. Clone and navigate to this repository.
+3. Enter `python main.py` in your command line.
 ### Is this project beginner friendly?
-YES
+YES!
 ## Maintainer
 Maintainer : squirrellovespie , nivedithapuligundla5@gmail.com
